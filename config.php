@@ -1,4 +1,4 @@
 <?php
-    define ('URL_WSDL', 'http://localhost:801/seguimiento/wsdl/wsdl.wsdl');
+    define ('URL_WSDL', 'http://localhost/tuproyecto/wsdl.wsdl');
 
 ?>
