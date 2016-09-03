@@ -1,11 +1,11 @@
 <?php
-include('lib/nusoap.php');
+
 
 require_once 'config.php';
 include("conexion.php");
-require_once 'include/dbHandler.php';
+
 //Se carga la librería soap
-        
+ include('nusoap.php');       
 
 //Deshabilita que se guarde en caché la info del wsdl
 ini_set("soap.wsdl_cache_enabled", "0");
